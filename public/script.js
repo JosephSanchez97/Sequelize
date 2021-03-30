@@ -1,4 +1,4 @@
-async function dininghalls(){
+async function dininghalls() {
   const request = await fetch("/api/dining");
   const data = await request.json();
 }
